@@ -3,6 +3,10 @@ body{
     background-color: #363b3b;
 }
 
+.text_main{
+    color: #fff;
+}
+
 .mainGame{
     height: 100vh; /* Tamanho visivél da tela no chrome(navegador) */
     width: 100vw;
@@ -18,34 +22,34 @@ body{
     border: 1px solid #fff;
     background-color: #fff;
     border-radius: 100%;
-    width: 600px;
-    height: 600px;
+    width: 400px;
+    height: 400px;
 }
 
 .blue {
     grid-area: azul;
-    background-color: rgb(33, 33, 240);
+    background-color: rgb(10, 10, 136);
     border-bottom-right-radius: 100%;
 }
 
 .red {
     grid-area: vermelho;
-    background-color: rgb(230, 84, 40);
+    background-color: rgb(207, 52, 5);
     border-top-right-radius: 100%;
 }
 
 .green {
     grid-area: verde;
-    background-color: rgb(61, 192, 10);
+    background-color: rgb(40, 128, 5);
     border-top-left-radius: 100%;
 }
 
 .yellow {
     grid-area: amarelo;
-    background-color: rgb(252, 248, 17);
+    background-color: rgb(235, 231, 11);
     border-bottom-left-radius: 100%;
 }
 
 .selected{
-    opacity: 0.8;
+    opacity: 0.4;
 }
